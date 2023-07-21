@@ -64,7 +64,12 @@
             <!-- Configuration (if needed) -->
         </plugin>
     </plugins>
-
+<repositories>
+    <repository>
+      <id>${NEXUS_GRP_REPO}</id>
+      <url>http://${NEXUS_IP}:${NEXUS_PORT}/repository/${NEXUS_GRP_REPO}/</url>
+    </repository>
+  </repositories>
     <finalName>my-webapp</finalName>
   </build>
 </project>
