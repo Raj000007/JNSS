@@ -10,7 +10,7 @@ pipeline {
   NEXUS_PASS = 'admin'
   RELEASE_REPO = 'release'
   CENTRAL_REPO = 'central'
-  NEXUS_IP = '172.31.16.243'
+  NEXUS_IP = '54.196.137.6'
   NEXUS_PORT = '8081'
   NEXUS_GRP_REPO = 'group'
         NEXUS_LOGIN = 'nexuslogin'
